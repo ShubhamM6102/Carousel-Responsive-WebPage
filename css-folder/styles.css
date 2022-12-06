@@ -1,0 +1,334 @@
+* {
+  font-family: "Asap", sans-serif;
+}
+
+body {
+  font-family: "Asap", sans-serif;
+  background-color: white;
+}
+
+.background-container{
+  width: 100%;
+  background-color: #00AC7A;
+}
+.container {
+  max-width: 1024px;
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.header-container{
+  /* border-bottom:1px solid black; */
+  background-color: #00BD85;
+}
+header {
+  /* background-color: rgb(31, 169, 109); */
+  max-width: 1024px;
+  min-height: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+  column-gap: 15px;
+}
+.nav-bar{
+  height:100px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border-left:1px solid  #078B65;
+  border-right:1px solid #078B65;
+ 
+}
+header a {
+  text-decoration: none;
+  color: white;
+  margin-inline-start: 5px;
+  margin-inline-end: 5px;
+  padding: 10px 10px 10px 10px;
+}
+
+header a:hover {
+  background-color: rgb(4, 5, 5);
+}
+
+.sidebutton{
+  display: none;
+}
+
+.header-icon i{
+  border:1px solid #01aa78;
+}
+.header-icon i:hover {
+  border-color: #c7f0e3;
+  cursor: pointer;
+}
+.item1 {
+  max-width: 1024px;
+  /* display: flex; */
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+  color: white;
+  /* background-color: #04aa6d; */
+}
+
+.item2 {
+  max-width: 1024px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  padding-top: 20px;
+
+}
+
+.item2a {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-bottom: solid;
+  border-color: rgba(3, 148, 100, 0.824);
+  margin-block: 10px;
+  margin-inline-start: 20px;
+  margin-inline-end: 20px;
+  transition: 0.1s;
+  padding: 10px 20px 30px 20px;
+}
+
+/* #dots{
+    display: none;
+}
+#dots1, #dots2{
+    display: none;
+} */
+#more {
+  display: none;
+}
+#more1,
+#more2,#more3a {
+  display: none;
+}
+
+.sub-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30%;
+}
+
+.sub-item h6 {
+  font-size: 18px;
+  width: 70%;
+  /* color: red; */
+}
+
+.item2a:hover {
+  cursor: pointer;
+  transform: scale(1);
+  background: #f5f5f5;
+  z-index: 2;
+  color: rgb(31, 169, 109);
+}
+.icon:hover {
+  color: rgb(152, 67, 135);
+  size: 48px;
+  transition: 1s;
+  transform: scale(1.5);
+}
+
+.item2a button {
+  width: 130px;
+  height: 40px;
+  background-color: white;
+  cursor: pointer;
+}
+.item2a:hover button {
+  background-color: rgba(3, 148, 100, 0.824);
+  border: none;
+  color: white;
+}
+
+.item2a button:hover {
+  background-color: black;
+  color: #ddd;
+}
+
+.item3 {
+  display: flex;
+  margin: auto;
+  max-width: 1024px;
+  justify-content: space-between;
+}
+.item3 h3{
+  font-size: 20px;
+    color: #20BC8B;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+.sub-item3a {
+  width: 48%;
+  border-bottom: solid;
+  border-color: rgba(3, 148, 100, 0.824);
+
+}
+
+.buttons button{
+  width: 130px;
+  height: 40px;
+  margin: 0px 10px 0px 0px;
+  border:none;
+  color: black;
+  font-weight: bold;
+}
+#service1,#service2,#service3 {
+  display: none;
+ 
+}
+
+.service1-container {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  margin: auto;
+  padding: 20px 20px 10px 20px;
+  background: #f5f5f5;
+  color:rgba(3, 148, 100, 0.824);
+}
+
+.sub-service1 {
+  width: 100%;
+  padding: 10px 10px 10px 10px;
+  padding-inline-end: 20px;
+
+  /* height: 500px;   */
+}
+.sub-service1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.sub1-service1 {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+ align-self: flex-start;
+  padding:10px 10px 10px 10px ;
+}
+
+.sub1-service1 h4{
+  justify-self: start;
+}
+
+.sub1-service1 button{
+  width: 130px;
+  height: 40px;
+  background-color:#04aa6d;
+  color: white;
+  border:none;
+  cursor: pointer;
+}
+.sub1-service1 button:hover{
+  background: black;
+}
+
+
+.sub-item3b {
+  width: 50%;
+  border-bottom: solid;
+  border-color: rgba(3, 148, 100, 0.824);
+  /* justify-content: flex-start; */
+  /* border: 1px solid black; */
+  /* height: 500px; */
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("images/appointmnet.png");
+  /* Center and scale the image nicely */
+  /* background-position: center;
+    background-repeat: no-repeat; */
+  background-size: cover;
+  /* position: relative; */
+}
+
+/* Add styles to the form container */
+.item3b1 {
+  display: flex;
+  flex-direction: column;
+  width: 42%;
+  background-color: #f5f5f5;
+  padding: 10px 10px 20px 10px;
+}
+
+/* Full-width input fields */
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="tel"]  {
+  /* width: 90%; */
+  padding: 10px 10px 10px 10px;
+  margin: 5px 5px 10px 5px;
+  border: 1px solid #d4d4d4;
+  background: #f1f1f1;
+}
+/* input[type=text]:hover, input[type=password]:hover {
+    background-color: #ddd;
+    outline: none;
+    border: 2px solid #04AA6D;
+  } */
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: #ddd;
+  outline: none;
+  border: 2px solid #04aa6d;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #04aa6d;
+  color: white;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  border: none;
+  cursor: pointer;
+  width: 70%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 5;
+  background-color: black;
+  color: white;
+}
+
+.container1 {
+  width: 90%;
+  padding: 20px;
+  margin: 100px auto;
+  background: #ddd;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.box {
+  width: 250px;
+  height: 300px;
+  background: rgb(255, 255, 255);
+  margin: 0px 10px;
+  transition: 0.5s;
+}
+.box:hover {
+  cursor: pointer;
+  transform: scale(1);
+  background: #f5f5f5;
+  z-index: 2;
+  /* box-shadow: 2px 2px 2px #000; */
+  color: red;
+}
+                      

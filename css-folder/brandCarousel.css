@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.container-brand {
+    padding-top: 0px;
+    max-width: 1024px;
+    margin: auto;
+    margin-bottom: 75px;
+}
+
+.container-brand h2 {
+    text-align: start;
+    margin: 0px 0px 0px 0px;
+    color: #20BC8B;
+    /* text-decoration: underline; */
+    text-underline-offset: 10px;
+}
+
+.container-brand hr{
+    background: #01aa78;
+    margin: 10px;
+    margin-left: 0px;
+    width: 10%;
+    margin-bottom: 30px;
+    border: 1px solid #01aa78;
+    height: 0px;
+}
+.slick-slide {
+    margin: 0 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+    height: 100px;
+}
+
+.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+}
+
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block
+}
+
+.slick-slide {
+    display: none;
+    float: left;
+    height: 80%;
+    min-height: 1px;
+    border-bottom: 2px solid #00AB7B;
+}
+
+.slick-slide img {
+    display: block;
+}
+
+.slick-slide:hover {
+    background-color: #F5F5F5;
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+}

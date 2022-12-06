@@ -1,0 +1,157 @@
+.footer {
+  background-color: #00AC7A;
+  padding: 60px 0px 30px 0px;
+  color: white;
+  padding-left: 10px;
+}
+
+
+.footer-container {
+  max-width: 1024px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  row-gap: 20px 20px;
+  /* padding: 10px; */
+}
+
+.footer-container h2 {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  margin-bottom: 40px;
+  /* margin-bottom: 0px; */
+}
+/* .footer-container hr{
+  background: white;
+  margin: 10px;
+  margin-left: 0px;
+  width: 90px;
+  margin-bottom: 40px;
+  border: 1px solid white;
+  height: 0px;
+} */
+.footer1,
+.footer2,
+.footer3 {
+  display: flex;
+  flex-direction: column;
+  width: 33.3%;
+  padding-right: 30px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.contact i {
+  width: 10%;
+  font-size: 28px;
+  color: white;
+}
+
+.footer-icon i {
+  border: 1px solid #01aa78;
+  font-size: 28px;
+  color: white;
+  padding: 5px 10px 5px 10px;
+
+}
+
+.footer-icon i:hover {
+  border-color: #c7f0e3;
+  cursor: pointer;
+}
+
+.latestpost {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.postImg {
+  /* width: 20%; */
+  margin-right: 15px;
+  margin-top: 4px;
+}
+
+.post {
+  width: 70%;
+}
+
+.post h4,
+p {
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+/* Container around content */
+.containerf {
+  padding: 5px 0px 0px 40px;
+  position: absolute;
+  width: inherit;
+  z-index: -1;
+  max-width: 200px;
+  background-color: inherit;
+}
+
+
+
+
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid #01986D;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #01986D transparent transparent;
+  background-attachment: #01986D;
+}
+
+.content {
+  padding: 10px 10px;
+  background-color: #01986D;
+  position: relative;
+  width: 250px;
+  /* border-radius: 6px; */
+}
+
+.footer p {
+  font-size: small;
+}
+
+.widget {
+  display: flex;
+  width: 100%;
+  z-index: 1;
+
+  margin-bottom: 80px;
+
+}
+
+.widget i {
+  padding: 25px 5px 5px 5px;
+  font-size: 28px;
+  color: white;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  font-size: small;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  background-color: #00bd85;
+}
